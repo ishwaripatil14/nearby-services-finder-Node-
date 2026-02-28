@@ -143,3 +143,89 @@ Endpoints:
 
 - Service `location` is stored as GeoJSON Point `{ type: "Point", coordinates: [lng, lat] }`.
 - `2dsphere` index is created on `location` in `backend/models/Service.js`.
+---
+
+## 🚀 Quick Start (Run Backend + Frontend)
+
+Follow these exact steps to run the full project locally.
+
+---
+
+## 🔹 Step 1: Start Backend (Node.js + Express)
+
+Open a terminal:
+
+### 1️⃣ Go to backend folder
+
+```
+cd backend
+```
+
+### 2️⃣ Install dependencies (first time only)
+
+```
+npm install
+```
+
+### 3️⃣ Run backend in development mode
+
+```
+npm run dev
+```
+
+✅ Backend will start on:
+
+```
+http://localhost:5000
+```
+
+---
+
+## 🔹 Step 2: Start Frontend (React + Vite)
+
+Open a new terminal window:
+
+### 1️⃣ Go to frontend folder
+
+```
+cd frontend
+```
+
+### 2️⃣ Install dependencies (first time only)
+
+```
+npm install
+```
+
+### 3️⃣ Run frontend
+
+```
+npm run dev
+```
+
+✅ Frontend will start on:
+
+```
+http://localhost:5173
+```
+
+---
+
+## ✅ Final Step
+
+1. Make sure MongoDB is running.
+2. Start Backend first.
+3. Then start Frontend.
+4. Open browser and go to:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🔐 Admin Login URL
+
+```
+http://localhost:5173/admin/login
+```
